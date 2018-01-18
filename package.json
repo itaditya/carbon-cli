@@ -1,0 +1,36 @@
+{
+  "name": "carbon-cli",
+  "version": "1.0.0",
+  "description": "A command-line tool for making beautiful code snippets to share as images",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "carbon": "./index.js"
+  },
+  "keywords": [
+    "cli",
+    "carbon",
+    "code gen",
+    "snippets",
+    "share snippets",
+    "sharing",
+    "twitter",
+    "gist",
+    "command-line"
+  ],
+  "author": "Aditya Agarwal @itaditya (adi.surge.sh)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/itaditya/carbon-cli"
+  },
+  "bugs": {
+    "url": "https://github.com/itaditya/carbon-cli/issues"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "open": "0.0.5"
+  }
+}
