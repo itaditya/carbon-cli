@@ -1,10 +1,10 @@
 {
   "name": "carbon-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A command-line tool for making beautiful code snippets to share as images",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "patch-release": "npm version patch && npm publish"
   },
   "bin": {
     "carbon": "./index.js"
@@ -27,9 +27,6 @@
   },
   "bugs": {
     "url": "https://github.com/itaditya/carbon-cli/issues"
-  },
-  "scripts": {
-    "patch-release": "npm version patch && npm publish"
   },
   "license": "ISC",
   "dependencies": {
