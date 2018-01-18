@@ -1,6 +1,6 @@
 {
   "name": "carbon-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A command-line tool for making beautiful code snippets to share as images",
   "main": "index.js",
   "scripts": {
